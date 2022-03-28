@@ -1,17 +1,19 @@
 /* SASS syntax is enabled by precss plugin */
 
 $color: steelblue;
+$white: #fff;
 
 #cookie-consent {
   border: 1px solid $color;
   border-radius: 0.5rem;
   bottom: 1rem;
-  left: 1rem;
-  max-width: 280px;
+  left: .5rem;
+  right: .5rem;
   padding: 1rem;
   position: fixed;
   transform: none;
   transition: 350ms ease-in-out;
+  background-color: $white;
 
   &.hide {
     transform: translateY(calc(100% + 1rem));
@@ -48,7 +50,7 @@ $color: steelblue;
   }
 
   .text-white {
-    color: #fff;
+    color: $white;
   }
 
   .text-base {

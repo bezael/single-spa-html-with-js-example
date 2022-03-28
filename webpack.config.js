@@ -8,7 +8,7 @@ module.exports = (opts) => {
   return {
     mode: isProduction ? 'production' : 'development',
     output: {
-      filename: `index.js`,
+      filename: `dominicode-cookie.js`,
       libraryTarget: 'system',
       path: path.resolve(process.cwd(), 'dist'),
       uniqueName: packageJson.name,
